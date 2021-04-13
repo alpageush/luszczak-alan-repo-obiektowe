@@ -25,6 +25,14 @@ public class Trojkat {
 
         // tutaj prosze pana nie jest okreslone ktora to podstawa to wzialem jakakolwiek
     }
+    
+    public Trojkat(double dlug1, double dlug2, double kat) {
+        // trojkat prostokatny
+        
+        pole = a * b * Math.sin(kat) / 2;
+
+        // tutaj prosze pana nie jest okreslone ktora to podstawa to wzialem jakakolwiek
+    }
 
     @Override
     public String toString() {
